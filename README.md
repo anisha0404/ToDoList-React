@@ -38,7 +38,7 @@ Snapshot.png
 
 4. Open the app in your browser at:
    ```
-   http://localhost:3000
+  http://localhost:5173/
    ```
 
 
