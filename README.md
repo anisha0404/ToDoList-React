@@ -39,24 +39,7 @@ Snapshot.png
 4. Open the app in your browser at:
    ```
   http://localhost:5173/
-   ```
 
-
-  
-
-## 📂 Folder Structure
-```
-/todo-list
-│── /src
-│   ├── /components
-│   │   ├── TodoItem.js
-│   │   ├── TodoList.js
-│   │   ├── AddTask.js
-│   ├── App.js
-│   ├── index.js
-│── /public
-│── package.json
-│── README.md
 ```
 
 ## 📝 Usage
