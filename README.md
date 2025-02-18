@@ -9,7 +9,7 @@ A simple To-Do List application built using React.js, HTML, and CSS to help user
 - 📱 Responsive design
 - 🎨 User-friendly interface
 
-## 📸 Take a snapshot of the app UI for reference 
+##📸 Take a snapshot of the app UI for reference 
 Snapshot.png
 
 ## 🛠 Technologies Used
@@ -38,8 +38,25 @@ Snapshot.png
 
 4. Open the app in your browser at:
    ```
-  http://localhost:5173/
+   http://localhost:5173/
+   ```
 
+ 
+   
+
+## 📂 Folder Structure
+```
+/todo-list
+│── /src
+│   ├── /components
+│   │   ├── TodoItem.js
+│   │   ├── TodoList.js
+│   │   ├── AddTask.js
+│   ├── App.js
+│   ├── index.js
+│── /public
+│── package.json
+│── README.md
 ```
 
 ## 📝 Usage
