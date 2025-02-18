@@ -22,7 +22,7 @@ Snapshot.png
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/todo-list.git
+   git clone https://github.com/anisha0404/todo-list.git
    cd todo-list
    ```
 
