@@ -9,15 +9,16 @@ A simple To-Do List application built using React.js, HTML, and CSS to help user
 - 📱 Responsive design
 - 🎨 User-friendly interface
 
-##SNAPSHOT
+## 📸 Take a snapshot of the app UI for reference 
 Snapshot.png
 
 ## 🛠 Technologies Used
 - ⚛️ React.js
 - 🏗 HTML
 - 🎨 CSS
+- ⚡ Bun (Fast JavaScript runtime)
 
-## 🚀 Installation
+## 🚀 Installation & Snapshot
 
 1. Clone the repository:
    ```bash
@@ -25,20 +26,23 @@ Snapshot.png
    cd todo-list
    ```
 
-2. Install dependencies:
+2. Install dependencies using Bun:
    ```bash
-   npm install
+   bun install
    ```
 
 3. Start the development server:
    ```bash
-   npm start
+   bun run start
    ```
 
 4. Open the app in your browser at:
    ```
    http://localhost:3000
    ```
+
+
+  
 
 ## 📂 Folder Structure
 ```
