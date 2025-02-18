@@ -1,0 +1,166 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #256068;
+}
+.todo-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 3%;
+    color: white;
+    transition: 0.3s linear;
+    overflow: hidden;
+    margin-left:530px;
+  }
+  .header,
+  .form,
+  .datetime {
+    margin: 0 1rem;
+    min-height: 10vh;
+    width: 100%;
+  }
+  .header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 3rem;
+    min-height: 25vh;
+    width: 100%;
+    
+  }
+   header {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+  } 
+  .date-time {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+  form {
+    display: flex;
+    font-size: 1.7rem;
+    justify-content: center;
+    margin: 15px 0;
+    padding: 0.8rem;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  form input {
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    outline: none;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    max-width: 500px;
+    transition: background-color 200ms ease-in-out;
+    width: 100%;
+    /* width: 330px; */
+    background-color: #f2f3f4;
+    color:black;
+  }
+  form input:hover {
+    cursor: text;
+  }
+  form input::placeholder {
+    color: rgb(26, 22, 22);
+    opacity: 0.7;
+  }
+  form button {
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+  }
+  
+  form button:hover {
+    cursor: pointer;
+    background-color: #9ef10f;
+  }
+  form button {
+    padding: 10px;
+    font-size: 17px;
+    width: 100px;
+    height:58px;
+    background-color: #256068;
+    color: var(--secondary-color);
+    border-top-right-radius:15px ;
+  }
+  
+ 
+  .myUnOrdList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+   
+  }
+  
+  .todo-list {
+    width: 100%;
+    list-style: none;
+  }
+  .todo-item {
+    margin: 2.4rem;
+    font-size: 20px;
+    color: #1c2833;
+    border-radius: 30px;
+    transition: background-color 200ms ease-in-out;
+    background-color: #f2f3f4;
+   padding:5px;
+    /* display: grid;
+    grid-template-columns: 1fr 0.3fr 0.3fr; */
+    display:flex;
+    justify-content: center;
+    gap:3px;
+    overflow-wrap:anywhere;
+    text-align:center;
+  }
+  
+  li span {
+    width:330px;
+    /* max-width: 20rem; */
+    color: #1c2833;
+  }
+  .checkList {
+    text-decoration: line-through;
+  }
+  .notCheckList {
+    text-decoration: none;
+  }
+  .clear-btn {
+    background-color: #e74c3c;
+    font-size: 1.6rem;
+    padding: 1rem 2.2rem;
+    border-radius: 0.3rem;
+    border:2px solid black;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+  }
+  .clear-btn:hover {
+    background-color: #8d2207;
+  }
+  .delete-btn,.check-btn{
+    width:10px;
+    background-color:transparent;
+    color:#1c2833
+  }
+.check-btn,.delete-btn{
+    background-color: #256068;
+    border-radius: 50%;
+    font-size: 10px;
+    width: 50px !important; /* Increased width */
+    height: 50px !important; /* Increased height */
+    padding: 0px;
+}
+.icon-class{
+    font-size: 30px;
+}
+
+
+
+/* ****************************************digital clock**************************************************** */
